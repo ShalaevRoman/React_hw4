@@ -1,7 +1,8 @@
 import { Component } from 'react';
 import {TodoForm} from "./components/TodoForm";
 import {TodoList} from "./components/TodoList";
-import './Todo.css'
+import {AddingTodos} from "./components/AddingTodos";
+import './Todo.css';
 
 export class Todo extends Component {
     render() {
@@ -9,6 +10,7 @@ export class Todo extends Component {
             <div className='todoWrapper'>
                 <TodoForm />
                 <TodoList />
+                <AddingTodos/>
             </div>
         );
     }
