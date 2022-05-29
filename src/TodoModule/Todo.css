@@ -1,7 +1,20 @@
 .todoWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.todoAction {
     width: 400px;
     height: 100vh;
     background-color: #C4C4C4;
+}
+
+.todoInformation {
+    width: 60%;
+    height: 100vh;
+    margin-left: 20px;
 }
 
 

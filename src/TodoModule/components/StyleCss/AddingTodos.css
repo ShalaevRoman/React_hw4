@@ -1,6 +1,7 @@
 .addingTodosFormWrapper {
     margin-top: 200px;
     padding: 10px;
+    border-top: 2px solid #9A9A9A;
 }
 
 .addingTodosFormWrapper input {
